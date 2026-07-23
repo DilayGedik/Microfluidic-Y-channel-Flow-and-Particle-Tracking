@@ -1,0 +1,10 @@
+{
+  "project": "Y-Channel Microfluidic Flow and Particle Tracking",
+  "type": "interactive scientific simulation",
+  "units": {
+    "length": "micrometers",
+    "time": "seconds",
+    "velocity": "micrometers per second",
+    "diffusion": "square micrometers per second"
+  }
+}
