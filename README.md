@@ -1,7 +1,7 @@
 # Y-Channel Microfluidic Flow and Particle Tracking
 
 An interactive simulation of laminar flow and particle transport
-through a symmetric Y-shaped microchannel.
+through a symmetric Y shaped microchannel.
 
 ## What it demonstrates
 
@@ -10,7 +10,7 @@ through a symmetric Y-shaped microchannel.
 - Nanoparticle advection
 - Optional Brownian diffusion using the Stokes-Einstein equation
 - Particle trajectory visualization
-- Branch-outlet particle counts
+- Branch outlet particle counts
 - Downloadable trajectory data
 - Reusable simulation functions separated from the interface
 
@@ -18,7 +18,7 @@ through a symmetric Y-shaped microchannel.
 
 This is a reduced order 2D engineering model, not a full computational fluid 
 dynamics solver. It is designed for rapid experimentation, portfolio
-demonstration, and early design exploration. A publication-grade model would
+demonstration, and early design exploration. A publication grade model would
 normally solve the Navier-Stokes equations on a meshed geometry and include
 mesh convergence and validation studies.
 
@@ -75,7 +75,7 @@ The final dimension contains x and y positions in micrometers.
 ## Possible extensions
 
 - Unequal daughter-branch flow rates
-- Two-inlet concentration mixing
+- Two inlet concentration mixing
 - Magnetic or acoustic particle steering
 - Particle wall adhesion
 - Red blood cell margination
