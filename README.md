@@ -1,9 +1,9 @@
-# Y-Channel Microfluidic Flow and Particle Tracking
+#Y-Channel Microfluidic Flow and Particle Tracking
 
 An interactive simulation of laminar flow and particle transport
 through a symmetric Y shaped microchannel.
 
-## What it demonstrates
+##What it demonstrates
 
 - Pressure driven laminar velocity profiles
 - Streamlines and velocity magnitude visualization
@@ -14,15 +14,15 @@ through a symmetric Y shaped microchannel.
 - Downloadable trajectory data
 - Reusable simulation functions separated from the interface
 
-## Important modeling note
+##Important modeling note
 
 This is a reduced order 2D engineering model, not a full computational fluid 
 dynamics solver. It is designed for rapid experimentation, portfolio
-demonstration, and early design exploration. A publication grade model would
-normally solve the Navier-Stokes equations on a meshed geometry and include
+demonstration and early design exploration. A publication grade model would
+normally solve the Navier Stokes equations on a meshed geometry and include
 mesh convergence and validation studies.
 
-## Run locally
+##Run locally
 
 1. Install Python 3.10 or newer.
 2. Open a terminal in this folder.
@@ -48,14 +48,14 @@ mesh convergence and validation studies.
 
 Streamlit will print a local URL, usually `http://localhost:8501`.
 
-## Project structure
+##Project structure
 
 - `app.py`: interactive Streamlit interface and visualizations
 - `simulation.py`: reusable geometry, flow, diffusion, and trajectory functions
 - `requirements.txt`: Python dependencies
 - `example_usage.py`: example of using the simulation module without Streamlit
 
-## Reuse in another project
+##Reuse in another project
 
 ```python
 from simulation import ChannelConfig, ParticleConfig, simulate_particles
@@ -72,7 +72,7 @@ times, positions, diffusion = simulate_particles(channel, particles)
 
 The final dimension contains x and y positions in micrometers.
 
-## Possible extensions
+##Possible extensions
 
 - Unequal daughter-branch flow rates
 - Two inlet concentration mixing
